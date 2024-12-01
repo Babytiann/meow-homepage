@@ -1,6 +1,9 @@
 @import "./style/font.css";
 @import "./style/color.css";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *, *::before, *::after {
   box-sizing: border-box;
 }
