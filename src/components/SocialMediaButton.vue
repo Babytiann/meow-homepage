@@ -1,22 +1,43 @@
 <script setup lang="ts">
-import {config} from "../assets/config";
 
 defineProps<{
   title: string,
   url: string
 }>();
 
-const buttoncolor = config.theme.buttonColor
 </script>
 
 <template>
-  <div class="container bg-red-900">
-    <a :href="url" target="_blank">{{ title }}</a>
+  <div class="container
+              bg-white/30
+              backdrop-blur-[2px]
+              h-[50px] w-[128px]
+
+              border-solid
+              border-[1px]
+              border[rgba(0, 0, 0, 0.1)]
+              rounded-2xl
+
+              shadow-lg
+              hover:shadow-button-shadow
+              hover:scale-[1.12]
+              duration-[350ms]
+    ">
+    <a :href="url" target="_blank" class="
+              inline-flex
+              h-full w-full
+              justify-center items-center
+              tracking-wide
+             text-grey1
+             focus:border-purple-300
+              ">{{ title }}</a>
   </div>
 </template>
 
 <style scoped>
-  div{
-    display: block;
+  a{
+    outline-color: transparent;
+    text-decoration: none;
   }
+
 </style>
