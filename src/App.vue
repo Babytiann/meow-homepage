@@ -16,11 +16,13 @@ import {config} from "./assets/config.ts";
       <Avatar />
     </template>
     <template #description class="text-grey">
-      <h1 class="text-[2.5rem] font-bold">{{config.name.first}}</h1>
-      <p class="text-lg">{{config.slogan.value}}</p>
+      <div class="text-center">
+        <h1 class="text-[2.5rem] font-bold en">{{config.name.first}}</h1>
+        <p class="text-lg leading-loose cn">{{config.slogan.value}}</p>
+      </div>
     </template>
     <template #social-media>
-      <div v-if="config.button" class="flex flex-row flex-wrap ">
+      <div v-if="config.button" class="flex flex-row flex-wrap justify-center en">
         <template v-for="item in config.button" :key="item.id">
           <SMButton :title="item.title" :url="item.url"></SMButton>
         </template>
