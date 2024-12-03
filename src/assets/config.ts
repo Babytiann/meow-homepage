@@ -1,46 +1,52 @@
 interface Config {
+    name:{
+        first: string,
+        last?: string,
+    }
+    slogan: {
+        value: string,
+    }
     Avatar: {
         url: string,
     },
-    //You can add any other name of button here
-    buttonTitle?: {
-        A?: {
-            title: string,
-            url: string,
-            key: number
-        },
-        B?: {
-            title: string,
-            url: string,
-            key: number
-        },
-        C?: {
-            title: string,
-            url: string,
-            key: number
-        }
-    }
+    button?: Array<{
+        id: number,
+        title: string,
+        url: string,
+    }>,
+
 }
 
 export const config: Config = {
+    name: {
+        first: "Meow"
+    },
+    slogan: {
+        value: "欢迎来到我的个人主页，一只菜菜的半栈工程师"
+    },
     Avatar: {
         url: 'src/assets/img/头像.png',
     },
-    buttonTitle: {
-        A: {
+    button: [
+        {
+            id: 1,
             title: "Blog",
-            url: "https://babytiann.cn",
-            key: 1,
+            url: "https://sang.babytiann.cn",
         },
-        B: {
+        {
+            id: 2,
+            title: "Resume",
+            url: 'https://meow.babytiann.cn',
+        },
+        {
+            id: 3,
+            title: "Email",
+            url: 'mailto:meow@gemdzqq.com',
+        },
+        {
+            id: 4,
             title: "GitHub",
             url: 'https://github.com/Babytiann',
-            key: 2,
-        },
-        C: {
-            title: "电子邮件",
-            url: 'mailto: meow@gemdzqq.com',
-            key: 3,
         }
-    }
+    ]
 }
