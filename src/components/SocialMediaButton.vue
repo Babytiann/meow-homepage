@@ -39,5 +39,4 @@ defineProps<{
     outline-color: transparent;
     text-decoration: none;
   }
-
 </style>

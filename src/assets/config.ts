@@ -1,4 +1,7 @@
 interface Config {
+    Avatar: {
+        url: string,
+    },
     //You can add any other name of button here
     buttonTitle?: {
         A?: {
@@ -20,6 +23,9 @@ interface Config {
 }
 
 export const config: Config = {
+    Avatar: {
+        url: 'src/assets/img/头像.png',
+    },
     buttonTitle: {
         A: {
             title: "Blog",

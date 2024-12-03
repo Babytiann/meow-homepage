@@ -1,14 +1,23 @@
 <script setup lang="ts">
 import SMButton from "./components/SocialMediaButton.vue"
 import BackGround from "./components/BackGround.vue";
+import Avatar from "./components/Avatar.vue";
+import Main from "./components/CenterArea.vue";
 </script>
 
 <template>
   <BackGround ></BackGround>
 
-  <div class="relative w-screen h-screen ">
-    <SMButton title="GitHub" url="1" class="fixed left-[50%] top-[50%]"></SMButton>
-  </div>
+
+  <Main>
+    <template #avator>
+      <Avatar />
+    </template>
+    <template #description>
+      111
+    </template>
+
+  </Main>
 </template>
 
 <style scoped>
