@@ -25,7 +25,7 @@ export const config: Config = {
         value: "欢迎来到我的个人主页，一只菜菜的半栈工程师👻"
     },
     Avatar: {
-        url: 'src/assets/img/头像.png',
+        url: 'src/assets/img/头像.webp',
     },
     button: [
         {

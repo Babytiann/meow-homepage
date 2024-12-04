@@ -17,7 +17,7 @@ import {config} from "./assets/config.ts";
     </template>
     <template #description class="text-grey">
       <div class="text-center">
-        <h1 class="text-[2.5rem] font-bold en">{{config.name.first}}</h1>
+        <h1 class="text-[2.3rem] lg:text-[2.8rem]  font-bold en">{{config.name.first}}</h1>
         <p class="text-lg leading-loose pl-2
 
                   bg-no-repeat

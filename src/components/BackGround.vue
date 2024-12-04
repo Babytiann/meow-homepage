@@ -10,6 +10,6 @@
 
 <style scoped>
 .my-bg{
-  background-image: url("../assets/img/莫奈.png");
+  background-image: url("../assets/img/莫奈.webp");
 }
 </style>

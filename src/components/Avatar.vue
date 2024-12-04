@@ -5,7 +5,7 @@ const url = config.Avatar.url
 </script>
 
 <template>
-  <div class="container max-w-[256px] h-auto min-w-[190px] w-[27.242%]
+  <div class="container max-w-[256px] h-auto min-w-[200px] w-[27.242%]
 
               hover:scale-[1.12]
               hover:m-7
