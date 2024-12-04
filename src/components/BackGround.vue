@@ -4,7 +4,7 @@
 
 <template>
   <div class=" my-bg w-screen h-screen z-[-1]
-       fixed bg-no-repeat bg-cover"
+       fixed bg-no-repeat bg-cover bg-center"
   ></div>
 </template>
 

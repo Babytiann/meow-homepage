@@ -5,7 +5,7 @@ const url = config.Avatar.url
 </script>
 
 <template>
-  <div class="container w-[256px] h-auto">
+  <div class="container max-w-[256px] h-auto min-w-[190px] w-[27.242%]:">
     <img :src="url" alt="Meow's avator" class="rounded-full object-contain">
   </div>
 </template>

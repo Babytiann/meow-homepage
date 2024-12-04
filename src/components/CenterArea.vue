@@ -11,7 +11,7 @@
             w-[72.5vw] h-[75vh] p-5
 
             backdrop-blur-[3px]
-            backdrop-contrast-120
+            backdrop-contrast-[1.1]
             bg-centerBg
 
             shadow-panel-shadow
@@ -19,7 +19,7 @@
             ">
   <div class="w-full h-full
                 flex flex-col items-center
-                overflow-auto
+                overflow-y-auto
 ">
     <slot name="avator"></slot>
     <slot name="description"></slot>
