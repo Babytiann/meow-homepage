@@ -19,10 +19,10 @@ interface Config {
 
 export const config: Config = {
     name: {
-        first: "Meow"
+        first: "🧀Meow💕"
     },
     slogan: {
-        value: "欢迎来到我的个人主页，一只菜菜的半栈工程师"
+        value: "欢迎来到我的个人主页，一只菜菜的半栈工程师👻"
     },
     Avatar: {
         url: 'src/assets/img/头像.png',

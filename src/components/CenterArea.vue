@@ -19,7 +19,7 @@
             ">
   <div class="w-full h-full
                 flex flex-col items-center
-                overflow-y-auto
+                overflow-auto
 ">
     <slot name="avator"></slot>
     <slot name="description"></slot>
