@@ -6,9 +6,6 @@ interface Config {
     slogan: {
         value: string,
     }
-    Avatar: {
-        url: string,
-    },
     button?: Array<{
         id: number,
         title: string,
@@ -23,9 +20,6 @@ export const config: Config = {
     },
     slogan: {
         value: "欢迎来到我的个人主页，一只菜菜的半栈工程师👻"
-    },
-    Avatar: {
-        url: 'src/assets/img/头像.webp',
     },
     button: [
         {

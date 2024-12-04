@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import {config} from "../assets/config.ts";
 
-const url = config.Avatar.url
 </script>
 
 <template>
@@ -15,7 +13,7 @@ const url = config.Avatar.url
               rounded-full
               duration-[350ms]
   ">
-    <img :src="url" alt="Meow's avator" class="rounded-full object-contain">
+    <img src="/src/assets/img/头像.webp" alt="Meow's avator" class="rounded-full object-contain">
   </div>
 </template>
 
