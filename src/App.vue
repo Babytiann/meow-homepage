@@ -3,7 +3,7 @@ import SMButton from "./components/SocialMediaButton.vue"
 import BackGround from "./components/BackGround.vue";
 import Avatar from "./components/Avatar.vue";
 import Main from "./components/CenterArea.vue";
-
+import Footer from "./components/Footer.vue";
 import {config} from "./assets/config.ts";
 </script>
 
@@ -43,6 +43,8 @@ import {config} from "./assets/config.ts";
       </div>
     </template>
   </Main>
+
+  <Footer class="selection:bg-rose-200 selection:text-white"/>
 </template>
 
 <style scoped>
