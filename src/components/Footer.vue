@@ -14,7 +14,7 @@
     <p class="text-grey1">
       ©2024 Meow's Homepage. All Rights Reserved.
       <span class="text-white bg-wewak-200 ">
-        <a class="underline underline-offset-2" href="https://beian.miit.gov.cn" target="_blank">浙ICP备2024138433号-1</a>
+        <a class="underline underline-offset-2" href="https://beian.miit.gov.cn" target="_blank">浙ICP备2024138433号-2</a>
       </span>
       Powered by Meow_homepage project.
     </p>
