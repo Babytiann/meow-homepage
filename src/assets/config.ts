@@ -25,12 +25,12 @@ export const config: Config = {
         {
             id: 1,
             title: "Blog",
-            url: "https://sang.babytiann.cn",
+            url: "https://sang.gemdzqq.com",
         },
         {
             id: 2,
             title: "Resume",
-            url: 'https://meow.babytiann.cn',
+            url: 'https://meow.gemdzqq.com',
         },
         {
             id: 3,
