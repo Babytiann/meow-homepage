@@ -1,4 +1,4 @@
-interface Config {
+declare interface Config {
     name:{
         first: string,
         last?: string,
@@ -19,7 +19,7 @@ export const config: Config = {
         first: "🧀Meow💕"
     },
     slogan: {
-        value: "欢迎来到我的个人主页，一只菜菜的半栈工程师👻"
+        value: "Hi ! I'm Meow. 一只菜菜的半栈工程师👻"
     },
     button: [
         {
