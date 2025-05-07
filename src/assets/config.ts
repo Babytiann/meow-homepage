@@ -30,7 +30,7 @@ export const config: Config = {
         {
             id: 2,
             title: "Resume",
-            url: 'https://meow.gemdzqq.com',
+            url: 'https://me.gemdzqq.com',
         },
         {
             id: 3,

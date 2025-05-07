@@ -20,5 +20,6 @@
     "typescript": "~5.6.2",
     "vite": "^6.0.1",
     "vue-tsc": "^2.1.10"
-  }
+  },
+  "packageManager": "pnpm@10.1.0+sha1.ab7948c89104fdd3fc88b5b391fa4b73fd800631"
 }
